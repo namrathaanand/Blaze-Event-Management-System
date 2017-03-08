@@ -1,0 +1,45 @@
+
+  EVENT_ID CLIENT_NAME                                                          
+---------- --------------------                                                 
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+SCHEDULED DUE_DATE  OUTSTANDING_DUE                                             
+--------- --------- ---------------                                             
+         1 CINDY                                                                
+CINDY BIRTHDAY                                                                  
+12-DEC-16 22-NOV-16          131567                                             
+                                                                                
+         4 CINDY                                                                
+PARKER BIRTHDAY                                                                 
+12-DEC-16 22-NOV-16        231272.5                                             
+
+  EVENT_ID CLIENT_NAME                                                          
+---------- --------------------                                                 
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+SCHEDULED DUE_DATE  OUTSTANDING_DUE                                             
+--------- --------- ---------------                                             
+                                                                                
+         3 CINDY                                                                
+JOHN AND JANE                                                                   
+12-DEC-16 22-NOV-16          153874                                             
+                                                                                
+         5 SKYLAR                                                               
+GELLER ANIV                                                                     
+
+  EVENT_ID CLIENT_NAME                                                          
+---------- --------------------                                                 
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+SCHEDULED DUE_DATE  OUTSTANDING_DUE                                             
+--------- --------- ---------------                                             
+25-DEC-16 05-DEC-16        183840.5                                             
+                                                                                
+         2 DAVIS                                                                
+ROSS ANNIVERSARY                                                                
+25-DEC-16 05-DEC-16        139193.9                                             
+                                                                                
+
+
+Commit complete.
+

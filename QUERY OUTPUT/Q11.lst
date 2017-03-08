@@ -1,0 +1,15 @@
+
+EMPLOYEE_ID EMPLOYEE_NAME        BRANCH_NAME          AVG_RATING                
+----------- -------------------- -------------------- ----------                
+          5 SNOOP                SAN FRANCISCO               4.5                
+          3 SHAKIRA              NYC                           4                
+          4 CARL                 NYC                        3.75                
+          1 JOHN                 DALLAS                     2.95                
+          6 OLIVIA               SAN FRANCISCO               2.5                
+          2 JOHNSON              DALLAS                        2                
+
+6 rows selected.
+
+
+Commit complete.
+

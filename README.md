@@ -1,2 +1,3 @@
-# Blaze-Event-Management-System
-In order to have a full understanding of Database Management System, the initial steps of Software Development Life Cycle I.e. Requirement Analysis needed to be followed which I and my teammate fulfilled. Later on, the queries for CRUD and highly functional reports were needed to be developed. I developed Fully functional system with querying and report generation functionalities.
+THIS IS THE SUBMISSION FOR TEAM 1 PHASE 4.
+ALL THE OUTPUT OF THE QUERIES ARE LUCIDLY PRINTED AND AVAILABLE IN SEPARATE FILES NAMED Q1 THROUGH Q11 AND ALSO A SINGLE OUTPUT FILE IS AVAILABLE OUTPUT.LST.
+THE QUERIES PERTAINING TO REPORT WOULD HAVE MULTIPLE QUERIES WHICH IS THE DESIRED OUTPUT AND EACH QUERY WOULD FUNCTION AS DIFFERENT PART OF THE REPORT.  

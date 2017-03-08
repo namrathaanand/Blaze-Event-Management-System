@@ -1,0 +1,288 @@
+SQL> START F16_1_myDBqueries
+
+NO_OF_EVENTS_PLANNED                                                            
+--------------------                                                            
+                   2                                                            
+
+
+TOTAL_REVENUE                                                                   
+-------------                                                                   
+     367780.8                                                                   
+
+
+  EVENT_ID                                                                      
+----------                                                                      
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+REVENUE_PER_EVENT                                                               
+-----------------                                                               
+         1                                                                      
+CINDY BIRTHDAY                                                                  
+         134221.4                                                               
+                                                                                
+         4                                                                      
+PARKER BIRTHDAY                                                                 
+         233559.4                                                               
+
+  EVENT_ID                                                                      
+----------                                                                      
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+REVENUE_PER_EVENT                                                               
+-----------------                                                               
+                                                                                
+
+
+TOTAL_OPERATION_COST                                                            
+--------------------                                                            
+              222.26                                                            
+
+
+Commit complete.
+
+
+TYPE_OF_EVENT        EVENT_COUNT TOTAL_EVENTS PERCENTAGE                        
+-------------------- ----------- ------------ ----------                        
+ANNIVERSARY                    1            1        100                        
+
+
+Commit complete.
+
+
+NO_OF_LARGE_EVENTS                                                              
+------------------                                                              
+                 1                                                              
+
+
+NO_OF_SMALL_EVENTS                                                              
+------------------                                                              
+                 1                                                              
+
+
+Commit complete.
+
+
+   REVENUE TYPE_NAME                                                            
+---------- --------------------                                                 
+ 1836736.9 BIRTHDAY                                                             
+ 1603175.9 ANNIVERSARY                                                          
+  780139.7 WEDDING                                                              
+
+
+Commit complete.
+
+
+MOSTPOPULAR                                                                     
+--------------------------------------------------------------------------------
+     COUNT                                                                      
+----------                                                                      
+COYBOY FAN CLUB                                                                 
+         2                                                                      
+                                                                                
+
+
+Commit complete.
+
+
+TYPE_OF_EVENT        POPULAR_MONT      COUNT                                    
+-------------------- ------------ ----------                                    
+ANNIVERSARY          DEC                   2                                    
+
+
+Commit complete.
+
+
+BRANCH_NAME          POPULAR_DAY                                                
+-------------------- ------------                                               
+NYC                  SUN                                                        
+
+
+Commit complete.
+
+
+MOST_IN_DEMAND            COUNT                                                 
+-------------------- ----------                                                 
+EVENT PLANNING                5                                                 
+
+
+LEAST_IN_DEMAND           COUNT                                                 
+-------------------- ----------                                                 
+FLORIST                       1                                                 
+
+
+Commit complete.
+
+
+TOTAL_ANNUAL_EXPENSE       YEAR                                                 
+-------------------- ----------                                                 
+             1638.62       2016                                                 
+
+
+MONTH            RENT LICENCE_COST INSURANCE_COST MAINTENANCE_COST              
+---------- ---------- ------------ -------------- ----------------              
+ADVERTISEMENT_COST MISCELLANEOUS_COST TOTAL_COST                                
+------------------ ------------------ ----------                                
+JAN            142.32       142.32          27.24            132.4              
+               121                 71     636.28                                
+                                                                                
+FEB             61.11       118.14           12.4            127.4              
+               236                 42     597.05                                
+                                                                                
+MAR             54.22         17.1          14.57            200.4              
+                84                 35     405.29                                
+                                                                                
+
+
+Commit complete.
+
+
+CLIENT_NAME                                                                     
+--------------------                                                            
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+LOCATION                                                                        
+--------------------------------------------------------------------------------
+CITY                 EVENT_DAT                                                  
+-------------------- ---------                                                  
+SKYLAR                                                                          
+GELLER ANIV                                                                     
+TIMESQUARE                                                                      
+NYC                  25-DEC-16                                                  
+                                                                                
+
+CLIENT_NAME                                                                     
+--------------------                                                            
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+LOCATION                                                                        
+--------------------------------------------------------------------------------
+CITY                 EVENT_DAT                                                  
+-------------------- ---------                                                  
+BRYAN                                                                           
+BATCH 16                                                                        
+TIMESQUARE                                                                      
+NYC                  01-JAN-17                                                  
+                                                                                
+
+CLIENT_NAME                                                                     
+--------------------                                                            
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+LOCATION                                                                        
+--------------------------------------------------------------------------------
+CITY                 EVENT_DAT                                                  
+-------------------- ---------                                                  
+DAVIS                                                                           
+ROSS ANNIVERSARY                                                                
+PAULS PALACE                                                                    
+NYC                  25-DEC-16                                                  
+                                                                                
+
+CLIENT_NAME                                                                     
+--------------------                                                            
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+LOCATION                                                                        
+--------------------------------------------------------------------------------
+CITY                 EVENT_DAT                                                  
+-------------------- ---------                                                  
+CINDY                                                                           
+CINDY BIRTHDAY                                                                  
+COYBOY FAN CLUB                                                                 
+DALLAS               12-DEC-16                                                  
+                                                                                
+
+CLIENT_NAME                                                                     
+--------------------                                                            
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+LOCATION                                                                        
+--------------------------------------------------------------------------------
+CITY                 EVENT_DAT                                                  
+-------------------- ---------                                                  
+CINDY                                                                           
+JOHN AND JANE                                                                   
+FRANCIS CHURCH                                                                  
+SAN FRANCISCO        12-DEC-16                                                  
+                                                                                
+
+CLIENT_NAME                                                                     
+--------------------                                                            
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+LOCATION                                                                        
+--------------------------------------------------------------------------------
+CITY                 EVENT_DAT                                                  
+-------------------- ---------                                                  
+CINDY                                                                           
+PARKER BIRTHDAY                                                                 
+COYBOY FAN CLUB                                                                 
+DALLAS               12-DEC-16                                                  
+                                                                                
+
+6 rows selected.
+
+
+Commit complete.
+
+
+  EVENT_ID CLIENT_NAME                                                          
+---------- --------------------                                                 
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+SCHEDULED DUE_DATE  OUTSTANDING_DUE                                             
+--------- --------- ---------------                                             
+         1 CINDY                                                                
+CINDY BIRTHDAY                                                                  
+12-DEC-16 22-NOV-16          131567                                             
+                                                                                
+         4 CINDY                                                                
+PARKER BIRTHDAY                                                                 
+12-DEC-16 22-NOV-16        231272.5                                             
+
+  EVENT_ID CLIENT_NAME                                                          
+---------- --------------------                                                 
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+SCHEDULED DUE_DATE  OUTSTANDING_DUE                                             
+--------- --------- ---------------                                             
+                                                                                
+         3 CINDY                                                                
+JOHN AND JANE                                                                   
+12-DEC-16 22-NOV-16          153874                                             
+                                                                                
+         5 SKYLAR                                                               
+GELLER ANIV                                                                     
+
+  EVENT_ID CLIENT_NAME                                                          
+---------- --------------------                                                 
+EVENT_NAME                                                                      
+--------------------------------------------------------------------------------
+SCHEDULED DUE_DATE  OUTSTANDING_DUE                                             
+--------- --------- ---------------                                             
+25-DEC-16 05-DEC-16        183840.5                                             
+                                                                                
+         2 DAVIS                                                                
+ROSS ANNIVERSARY                                                                
+25-DEC-16 05-DEC-16        139193.9                                             
+                                                                                
+
+
+Commit complete.
+
+
+EMPLOYEE_ID EMPLOYEE_NAME        BRANCH_NAME          AVG_RATING                
+----------- -------------------- -------------------- ----------                
+          5 SNOOP                SAN FRANCISCO               4.5                
+          3 SHAKIRA              NYC                           4                
+          4 CARL                 NYC                        3.75                
+          1 JOHN                 DALLAS                     2.95                
+          6 OLIVIA               SAN FRANCISCO               2.5                
+          2 JOHNSON              DALLAS                        2                
+
+6 rows selected.
+
+
+Commit complete.
+
+SQL> spool off
