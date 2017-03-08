@@ -1,0 +1,2 @@
+# Blaze-Event-Management-System
+In order to have a full understanding of Database Management System, the initial steps of Software Development Life Cycle I.e. Requirement Analysis needed to be followed which I and my teammate fulfilled. Later on, the queries for CRUD and highly functional reports were needed to be developed. I developed Fully functional system with querying and report generation functionalities.
